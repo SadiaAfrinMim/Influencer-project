@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+     
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(58, 58, 58);
+    
+      
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.container-full{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+.container:after,
+.container:before{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.col-30{
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
+.col-33{
+    
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.col-70{
+    width: 70%;
+    float: left;
+    padding: 0 15px;
+}
+.col-14{
+    width: 14.28%;
+    float: left;
+    padding: 0 15px;
+}
+
+
+
+/* site css */
+.header .container{
+    padding: 20px 0;
+   
+}
+
+.logo{
+  
+    color:rgb(58, 58, 58);
+    text-decoration: none;
+    text-transform: capitalize;
+    /* padding:  15px 0; */
+    
+}
+.logo h2{
+    padding: 0 15px;
+    
+    
+}
+.main-manu{
+    float: right;
+    
+    
+}
+.main-manu a{
+    text-transform: capitalize;
+    text-decoration: none;
+   font-weight: 700;
+    margin: 0 15px;
+    font-size: 16px;
+    color:rgb(58, 58, 58);
+    transition: .3s;
+   
+
+}
+.main-manu a:hover{
+    color: aquamarine;
+}
+/* home section */
+#home h1{
+    font-size: 52px;
+    color: rgb(58, 58, 58);
+    padding: 57px 0;
+    font-weight: 700;
+}
+#home h6{
+    font-size: 16px;
+    font-style: bold;
+    padding: 0 0 67px 0;
+    font-weight: 700;
+  
+}
+
+.btn{
+    text-decoration: none;
+    padding: 18px;
+    background-color: #E02C6D;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    transition: .3s;
+    border-radius: 25px;
+
+}
+.btn:hover{
+    color: black;
+    background-color: aquamarine;
+    font-weight: 700;
+}
+#home-image img{
+   background: url("/assets/camera-2.png");
+   align-items: center;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px;
+   float: right;
+   
+   
+    
+}
+#marketview{
+    margin: 0 auto;
+  
+    padding: 0 100px;
+    float: right;
+    background-color: #E02C6D;
+    
+}
+
+.popular{
+    text-align: center;
+    padding: 80px 0;
+    font-weight: 800;
+    
+}
+ #products{
+    background: #EBEEF0;
+    padding: 20px;
+    border: 5px;
+   box-shadow: .10;
+   border-radius: 10px;
+  
+  
+ }
+ #products img{
+    border-radius: 10px;
+ }
+#details{
+    padding: 0;
+    margin: 0;
+}
+#details i{
+    color: orange;
+}
+#details a{
+    text-decoration: none;
+    padding: 10px 0;
+    font-weight: 500;
+    color: orangered;
+}
+.container .see{
+    text-align: left;
+}
+.see{
+   
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    color: orangered;
+    padding: 50px;
+    font-weight: 700;
+}
+.see:hover{
+    color: aqua;
+}
+#features{
+    padding: 40px 0;
+}
+#feature img{
+    border-radius: 20px;
+    
+}
+.one h2{
+    padding: 20px 0;
+    font-weight: 700;
+}
+.one h3{
+    padding-bottom: 40px;
+}
+.one .btn{
+   padding: 20px;
+   background-color: #0A0826;
+
+}
+.footer{
+    background-color: #0A0826;
+    padding: 40px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+.footer i{
+    color: #fff;
+    font-weight: 800;
+    padding: 20px 6px;
+    font-size: large;
+}
